@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/restartBttn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="10dp"
+            android:text="Restart" />
+
+        <Button
+            android:id="@+id/switchModes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch Modes" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:text="Guesses: " />
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:numColumns="10"
+            android:verticalSpacing="10dp"
+
+            android:stretchMode="columnWidth"
+            android:gravity="center" >
+
+        </GridView>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
